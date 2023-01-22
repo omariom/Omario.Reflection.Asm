@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>embedded</DebugType>
+
+    <Version>0.7.0</Version>
+    <Title>Omario.Reflection.Asm</Title>
+    <Authors>OmariO</Authors>
+
+    <PackageId>Omario.Reflection.Asm</PackageId>
+    <PackageProjectUrl>https://github.com/omariom/Omario.Reflection.Asm</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/omariom/Omario.Reflection.Asm</RepositoryUrl>
+    <PackageTags>dotnet;JIT;ASM;disassembler</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Omario.Reflection.Asm provides simple helpers to disassemble JIT compiled methods.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="True" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Iced" Version="1.18.0" />
+  </ItemGroup>
+</Project>
